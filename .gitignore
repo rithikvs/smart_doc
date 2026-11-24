@@ -1,0 +1,51 @@
+# Environment & Secrets (NEVER COMMIT REAL KEYS)
+.env
+*.env
+**/.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Python Virtual Environments & Bytecode
+venv/
+**/venv/
+env/
+**/env/
+.venv/
+**/__pycache__/
+**/*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+**/build/
+
+# ChromaDB & Databases
+chroma_db/
+**/chroma_db/
+*.sqlite3
+
+# Uploaded User Documents & Test Files
+uploads/*
+**/uploads/*
+!**/uploads/.gitkeep
+*.pdf
+*.doc
+*.docx
+
+# Node & Frontend Dependencies
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
